@@ -1,7 +1,7 @@
 import random
 
-name = input("Hello! what's your name? ")
-print("welcome " + name + "! I'm thinking of a number between 1 and 100")
+name = input("lets play a game... whats your name? ")
+print("welcome " + name + " Im thinking of a number between 1 and 100, if you get it right your chains will be released, if you dont get it in 5 guesses, well...")
 
 my_number = random.randint(1, 100)
 guesses = []
@@ -34,4 +34,4 @@ if user_guess == my_number:
 else:
   print("sorry you didnt guess my number. the number I am thinking of is " + str(my_number))
 
-
+#test commit
